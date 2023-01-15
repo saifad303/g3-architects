@@ -387,4 +387,137 @@
 
 /* our services end (extra section) */
 
+/* some-facts start */
+.some-facts {
+}
+.facts-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--headline-color);
+  margin-bottom: 24px;
+}
+.facts-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--paragraph-color);
+  width: 542px;
+  margin-bottom: 90px;
+}
+.achievements {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.achievement-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  width: 241.83px;
+  height: 241.83px;
+  border-radius: 8px;
+  gap: 10px;
+}
+.achievement-img {
+  width: 45.22px;
+  height: 45.22px;
+}
+.achievement-title {
+  font-size: 45px;
+  font-weight: 600;
+  color: var(--headline-color);
+}
+.achievement-description {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--paragraph-color);
+}
+
+/* some-facts responsive */
+@media screen and (max-width: 576px) {
+  .achievements {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .achievement-item {
+    width: 80%;
+  }
+  .facts-description {
+    margin-bottom: 60px;
+    width: 100%;
+  }
+}
+
+/* some-facts end */
+
+/* sponsors start */
+.sponsors {
+  margin-bottom: 130px;
+}
+.sponsor-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--headline-color);
+  text-align: center;
+  margin-bottom: 24px;
+}
+.sponsor-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--paragraph-color);
+  text-align: center;
+  line-height: 26px;
+  padding: 0 31%;
+  margin-bottom: 50px;
+}
+.sponsor-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sponsor-imgs img {
+  height: 50px;
+}
+/* sponsors responsive start */
+@media screen and (max-width: 576px) {
+  .sponsors {
+    margin-bottom: 100px;
+  }
+  .sponsor-imgs {
+    overflow-y: auto;
+    gap: 60px;
+    justify-content: flex-start;
+  }
+  .sponsor-description {
+    padding: 0 9%;
+  }
+}
+/* sponsors end */
+
 /* main end */
+
+/* footer start */
+footer {
+  width: 100%;
+  background-color: #fff4e7;
+  border-radius: 8px;
+  text-align: center;
+}
+footer p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #424242;
+  padding: 40px 0;
+  margin-bottom: 130px;
+}
+
+/* footer responsive */
+@media screen and (max-width: 576px) {
+  footer p {
+    font-size: 14px;
+  }
+}
+/* footer end */
